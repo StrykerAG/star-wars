@@ -1,22 +1,34 @@
-export const navItems = ['Home', 'About me', 'Star Wars', 'Contact', 'Lucas Film']
-export const openingCrawl = "It is a period of civil war.\n" +
-    "            Rebel spaceships, striking\n" +
-    "            from a hidden base, have won\n" +
-    "            their first victory against\n" +
-    "            the evil Galactic Empire.\n" +
-    "\n" +
-    "            During the battle, Rebel\n" +
-    "            spies managed to steal secret\n" +
-    "            plans to the Empire's\n" +
-    "            ultimate weapon, the DEATH\n" +
-    "            STAR, an armored space\n" +
-    "            station with enough power\n" +
-    "            to destroy an entire planet.\n" +
-    "\n" +
-    "            Pursued by the Empire's\n" +
-    "            sinister agents, Princess\n" +
-    "            Leia races home aboard her\n" +
-    "            starship, custodian of the\n" +
-    "            stolen plans that can save her\n" +
-    "            people and restore\n" +
-    "            freedom to the galaxy...."
+import friend1 from '/src/assets/friend1.jpg'
+import friend2 from '/src/assets/friend2.jpg'
+import friend3 from '/src/assets/friend3.jpg'
+import friend4 from '/src/assets/friend4.jpg'
+import friend5 from '/src/assets/friend5.jpg'
+import friend6 from '/src/assets/friend6.jpg'
+import friend7 from '/src/assets/friend7.jpg'
+import friend8 from '/src/assets/friend8.jpg'
+import friend9 from '/src/assets/friend9.jpg'
+
+export const navItems = ['Home', 'About me', 'Star Wars', 'Contact'];
+export const friends = [friend1, friend2, friend3, friend4, friend5, friend6, friend7, friend8, friend9];
+
+export const openingCrawl = `It is a period of civil war.
+            Rebel spaceships, striking
+            from a hidden base, have won
+            their first victory against
+            the evil Galactic Empire.
+
+            During the battle, Rebel
+            spies managed to steal secret
+            plans to the Empire's
+            ultimate weapon, the DEATH
+            STAR, an armored space
+            station with enough power
+            to destroy an entire planet.
+
+            Pursued by the Empire's
+            sinister agents, Princess
+            Leia races home aboard her
+            starship, custodian of the
+            stolen plans that can save her
+            people and restore
+            freedom to the galaxy...`
