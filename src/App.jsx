@@ -6,7 +6,7 @@ import {useState} from "react";
 import {navItems} from "./utils/constants.js";
 
 function App() {
-    const [page, setPage] = useState(navItems[3]);
+    const [page, setPage] = useState(navItems[0]);
     return (
         <div className="container-fluid">
             <Header changePage={setPage}/>
